@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">HomePageTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,225</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">ValidateTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">610,738</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">638,963</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HomePageTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Toytota.Tsure.HomePage</td><td><a href="#m0">basePageNavigation</a></td><td rowspan="2">1617631952968</td><td rowspan="2">12086</td></tr><tr class="passedeven"><td><a href="#m1">basePageNavigation</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">ValidateTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Toytota.Tsure.ValidatingAppTitle</td><td><a href="#m2">init</a></td><td rowspan="1">1617631941401</td><td rowspan="1">610622</td></tr><tr><th colspan="4">ValidateTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Toytota.Tsure.ValidatingAppTitle</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1617632552131</td><td rowspan="1">-1617632552131</td></tr><tr><th colspan="4">ValidateTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Toytota.Tsure.ValidatingAppTitle</td><td><a href="#m4">appTitleValidation</a></td><td rowspan="1">1617632552123</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>HomePageTest</h2><h3 id="m0">Toytota.Tsure.HomePage#basePageNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>restrincteduser@dd.com</td><td>fasfdfs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Toytota.Tsure.HomePage#basePageNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nonrestrincteduser@dd.com</td><td>eerwrwefasfdfs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ValidateTest</h2><h3 id="m2">Toytota.Tsure.ValidatingAppTitle#init</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.114)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-K40N5H6&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0132E7D3+124883]
+	Ordinal0 [0x0132E7B1+124849]
+	GetHandleVerifier [0x01578688+193832]
+	GetHandleVerifier [0x0156C079+143129]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01574679+177433]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01572A0A+170154]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01570D69+162825]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x0157017C+159772]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x015676ED+124301]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156AE03+138403]
+	GetHandleVerifier [0x0156ABF7+137879]
+	GetHandleVerifier [0x01579930+198608]
+	GetHandleVerifier [0x015B5758+443896]
+	GetHandleVerifier [0x015B47FC+439964]
+	GetHandleVerifier [0x015B154B+426987]
+	GetHandleVerifier [0x01594FFD+310941]
+	GetHandleVerifier [0x01595D8E+314414]
+	GetHandleVerifier [0x01595D19+314297]
+	GetHandleVerifier [0x016531EC+1089676]
+	GetHandleVerifier [0x016517C9+1082985]
+	GetHandleVerifier [0x016513A3+1081923]
+	GetHandleVerifier [0x0174D9FD+2115741]
+	Ordinal0 [0x0147B82E+1488942]
+	Ordinal0 [0x01415A7D+1071741]
+	Ordinal0 [0x0141559B+1070491]
+	Ordinal0 [0x014154B1+1070257]
+	Ordinal0 [0x0144FF53+1310547]
+	BaseThreadInitThunk [0x74AD3744+36]
+	RtlSetCurrentTransaction [0x7770A064+212]
+	RtlSetCurrentTransaction [0x7770A02F+159]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at resources.Base.intializeDriver(Base.java:34)
+	at Toytota.Tsure.ValidatingAppTitle.init(ValidatingAppTitle.java:24)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Toytota.Tsure.ValidatingAppTitle#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Toytota.Tsure.ValidatingAppTitle#appTitleValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.114)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-K40N5H6&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0132E7D3+124883]
+	Ordinal0 [0x0132E7B1+124849]
+	GetHandleVerifier [0x01578688+193832]
+	GetHandleVerifier [0x0156C079+143129]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01574679+177433]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01572A0A+170154]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01570D69+162825]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x0157017C+159772]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x015676ED+124301]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156AE03+138403]
+	GetHandleVerifier [0x0156ABF7+137879]
+	GetHandleVerifier [0x01579930+198608]
+	GetHandleVerifier [0x015B5758+443896]
+	GetHandleVerifier [0x015B47FC+439964]
+	GetHandleVerifier [0x015B154B+426987]
+	GetHandleVerifier [0x01594FFD+310941]
+	GetHandleVerifier [0x01595D8E+314414]
+	GetHandleVerifier [0x01595D19+314297]
+	GetHandleVerifier [0x016531EC+1089676]
+	GetHandleVerifier [0x016517C9+1082985]
+	GetHandleVerifier [0x016513A3+1081923]
+	GetHandleVerifier [0x0174D9FD+2115741]
+	Ordinal0 [0x0147B82E+1488942]
+	Ordinal0 [0x01415A7D+1071741]
+	Ordinal0 [0x0141559B+1070491]
+	Ordinal0 [0x014154B1+1070257]
+	Ordinal0 [0x0144FF53+1310547]
+	BaseThreadInitThunk [0x74AD3744+36]
+	RtlSetCurrentTransaction [0x7770A064+212]
+	RtlSetCurrentTransaction [0x7770A02F+159]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at resources.Base.intializeDriver(Base.java:34)
+	at Toytota.Tsure.ValidatingAppTitle.init(ValidatingAppTitle.java:24)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

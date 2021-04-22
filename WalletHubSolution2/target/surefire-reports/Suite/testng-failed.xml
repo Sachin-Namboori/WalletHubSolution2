@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Toytota.Tsure.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ValidateTest(failed)" parallel="tests">
+    <classes>
+      <class name="Toytota.Tsure.ValidatingAppTitle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="appTitleValidation"/>
+        </methods>
+      </class> <!-- Toytota.Tsure.ValidatingAppTitle -->
+    </classes>
+  </test> <!-- ValidateTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

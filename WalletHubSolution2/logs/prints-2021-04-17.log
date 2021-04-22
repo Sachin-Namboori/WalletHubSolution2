@@ -1,0 +1,7 @@
+20:15:55.132 [TestNG-tests-1] INFO  resources.Base - Profile name clicked
+20:15:57.853 [TestNG-tests-1] INFO  resources.Base - Whats on your mind element clicked
+20:15:58.329 [TestNG-tests-2] INFO  resources.Base - Clicked on login link
+20:15:58.768 [TestNG-tests-2] INFO  resources.Base - Email has been entered
+20:15:58.956 [TestNG-tests-2] INFO  resources.Base - Password has been entered
+20:15:59.098 [TestNG-tests-2] INFO  resources.Base - Click on login link
+20:15:59.920 [TestNG-tests-1] INFO  resources.Base - Hello World has been written

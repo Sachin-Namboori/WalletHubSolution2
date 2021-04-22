@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 614.352 s <<< FAILURE! - in TestSuite
+Toytota.Tsure.ValidatingAppTitle.init  Time elapsed: 587.023 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K40N5H6', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0132E7D3+124883]
+	Ordinal0 [0x0132E7B1+124849]
+	GetHandleVerifier [0x01578688+193832]
+	GetHandleVerifier [0x0156C079+143129]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01574679+177433]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01572A0A+170154]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x01570D69+162825]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x0157017C+159772]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156BD62+142338]
+	GetHandleVerifier [0x0156B45E+140030]
+	GetHandleVerifier [0x0156B6E6+140678]
+	GetHandleVerifier [0x0156B025+138949]
+	GetHandleVerifier [0x015676ED+124301]
+	GetHandleVerifier [0x0156AFE1+138881]
+	GetHandleVerifier [0x0156AE03+138403]
+	GetHandleVerifier [0x0156ABF7+137879]
+	GetHandleVerifier [0x01579930+198608]
+	GetHandleVerifier [0x015B5758+443896]
+	GetHandleVerifier [0x015B47FC+439964]
+	GetHandleVerifier [0x015B154B+426987]
+	GetHandleVerifier [0x01594FFD+310941]
+	GetHandleVerifier [0x01595D8E+314414]
+	GetHandleVerifier [0x01595D19+314297]
+	GetHandleVerifier [0x016531EC+1089676]
+	GetHandleVerifier [0x016517C9+1082985]
+	GetHandleVerifier [0x016513A3+1081923]
+	GetHandleVerifier [0x0174D9FD+2115741]
+	Ordinal0 [0x0147B82E+1488942]
+	Ordinal0 [0x01415A7D+1071741]
+	Ordinal0 [0x0141559B+1070491]
+	Ordinal0 [0x014154B1+1070257]
+	Ordinal0 [0x0144FF53+1310547]
+	BaseThreadInitThunk [0x74AD3744+36]
+	RtlSetCurrentTransaction [0x7770A064+212]
+	RtlSetCurrentTransaction [0x7770A02F+159]
+
+	at Toytota.Tsure.ValidatingAppTitle.init(ValidatingAppTitle.java:24)
+
